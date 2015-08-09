@@ -2,8 +2,7 @@
   "author": "Jack Callister",
   "license": "ISC",
   "scripts": {
-    "start": "./node_modules/.bin/webpack -w & python -m SimpleHTTPServer",
-    "test": "./node_modules/.bin/mocha src --recursive --compilers js:babel/register"
+    "start": "./node_modules/.bin/webpack -w & python -m SimpleHTTPServer"
   },
   "devDependencies": {
     "babel": "^5.8.3",

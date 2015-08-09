@@ -1,6 +1,5 @@
 import React from 'react';
 import Meals from './MealsConnector';
-import ShoppingList from './ShoppingListConnector';
 
 export default class App {
 
@@ -8,7 +7,6 @@ export default class App {
     return (
       <main>
         <Meals />
-        <ShoppingList />
       </main>
     );
   }

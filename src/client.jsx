@@ -5,7 +5,7 @@ import App from './components/app';
 import * as reducers from './reducers/index';
 
 const combinedReducers = combineReducers(reducers);
-const store = createStore();
+const store = createStore(combinedReducers);
 
 function app() {
   return <App />;

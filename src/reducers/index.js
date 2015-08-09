@@ -1,7 +1,5 @@
-import meals from './mealsReducer';
-import ingredients from './ingredientsReducer';
+import meals from './meals';
 
 export {
-  meals,
-  ingredients
+  meals
 }
